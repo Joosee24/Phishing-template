@@ -1,0 +1,228 @@
+* {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.bagian {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 44px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 350px;
+  height: 400px;
+  border-radius: 1px;
+}
+
+.section img {
+  display: flex;
+  margin: auto;
+}
+
+.section input {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgb(0, 0, 0, 0.07);
+  border-radius: 2px;
+  width: 258px;
+  padding: 10px;
+  margin: 0 40px 6px;
+}
+
+.login {
+  margin-top: 24px;
+}
+
+.login button {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  margin-left: 40px;
+  border-radius: 8px;
+  border: none;
+  padding: 9px;
+  background-color: #65b4f9;
+  color: white;
+  width: 286px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.verti1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  width: 107px;
+  position: relative;
+  bottom: 1.5em;
+}
+
+.or {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 18px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.verti2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  width: 107px;
+  position: relative;
+  display: flex;
+  bottom: 1.5em;
+}
+
+.facebook {
+  text-align: center;
+}
+
+.facebook span {
+  color: #385185;
+  font-size: 14px;
+  font-weight: bold;
+}
+.forgot {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #385185;
+  font-size: 12px;
+}
+
+.acc {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.acc p {
+  margin: 0;
+}
+
+.acc span {
+  color: #60a2f8;
+  font-weight: bold;
+}
+
+.acc span:hover {
+  cursor: pointer;
+}
+
+.border {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 1px;
+  padding: 0 75px 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.get {
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 10px 0 10px 0;
+  margin-bottom: 44px;
+}
+.image img {
+  height: 40px;
+}
+
+.span {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.span span:hover {
+  text-decoration: underline rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.bahasa {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 12px;
+  margin-bottom: 55px;
+  font-size: 12px;
+}
+
+.bahasa select {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 0;
+}
+
+.bahasa label:hover {
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  * {
+    overflow: hidden;
+  }
+
+  .section {
+    border: none;
+  }
+
+  .horizontal {
+    margin-bottom: 10px;
+  }
+
+  .border {
+    border: none;
+  }
+
+  .span {
+    display: flex;
+    max-width: 75ch;
+  }
+}
